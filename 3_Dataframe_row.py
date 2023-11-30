@@ -1,3 +1,4 @@
+
 import pandas as pd
 
 data = {
@@ -7,5 +8,5 @@ data = {
 
 #load data into a DataFrame object:
 df = pd.DataFrame(data)
-
-print(df)
+#refer to the row index:
+print(df.loc[0])
